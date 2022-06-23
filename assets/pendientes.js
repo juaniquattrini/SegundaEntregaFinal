@@ -18,7 +18,7 @@ class Estudiante{
                     curso: ${this.curso}
                     materia: ${this.materia}
                     presencial: ${this.presencial}
-                    previas: ${this.previas};
+                    previas: ${this.previas}
                 `   
     }
 }

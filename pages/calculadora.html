@@ -2,15 +2,31 @@
 <html>
 <head>
 	<title>Calculadora de Notas</title>
-	<link rel="stylesheet" href="/css/estilos.css"/>
+	<!--SWEETALERT2-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+    <!--JS-->
+    <script src="../assets/alert.js"></script>
 	<script src="/assets/script.js"></script>
-	<script src="/assets/scriptmain.js"></script>
+	<!-- <script src="/assets/scriptmain.js"></script> -->
+	<!--CSS-->
+	<link rel="stylesheet" href="/css/estilos.css"/>
+
 	<!-- <script src="array.js"></script> -->
 </head>
 <body>
+	<header class="header__base">
+        <div >
+            <h1>COLEGIO SANTO CODER</h1>
+        </div> 
+        <div >
+          
+        </div>       
+    </header>  
 	<div class="container">
 	<h1>Calculadora de porcentaje de notas</h1>
-	<a href="/index.html">VOLVER A HOME</a>
+
 	<div class="items">
 		<div class="app">
 		<div class="form-grupo">
@@ -63,5 +79,9 @@
 		<p id="mostrarDatos"></p>
 	</div>
 	</div>
+	<div id="linksUtiles">
+        <button id="link3">Volver a inicio</button>
+        <button id="link4">Ingreso de datos de alumno</button>
+        </div>
 </body>
 </html>
